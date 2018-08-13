@@ -1,6 +1,6 @@
 # Data Art - The Sun #
 
-![SW_1997-2017-animated](SW_1997-2017-animated.gif "Space Weather data collected over 20 years (1997-2017).")
+![SW_1997-2017-animated](SW_1997-2017-animated-small.gif "Space Weather data collected over 20 years (1997-2017).")
 
 Our Sun is living and beautiful. The Sun pulses with activity through its 11-year solar cycle and creates space weather. These images are "reconstructions" of our Sun using space weather data collected by the [Space Weather Prediction Centre (SWPC)](https://www.swpc.noaa.gov/) from 1997 to 2017.
 Here is what each ring represents:
@@ -19,7 +19,7 @@ Briefly for data transformation, the parameters had to be scaled in the followin
 where _x_ is the reading, and _max_ is the maximum reading found in a parameter for all years. Transformed readings that were not within 0 - 1 were zeroed.
 
 The circos plots were generated using [GraPhlAn](https://bitbucket.org/nsegata/graphlan/wiki/Home). Please refer to GraPhlAn documents on details about installing the program.
-I have written a [Python 2](https://www.python.org) script that would take the following two starting files and generate a plot per year with GraPhlAn:
+I have written a [Python 2](https://www.python.org) script called [plot\_graphlan\_SW.py](plot_graphlan_SW.py "plot_graphlan_SW.py") that would take the following two starting files and generate a plot per year with GraPhlAn:
 
 * [SW\_tree.txt](SW_tree.txt "SW_tree.txt")
 * [SW\_1997-2017\_data.csv](SW_1997-2017_data.csv "SW_1997-2017_data.csv")
