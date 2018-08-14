@@ -1,6 +1,6 @@
 # Data Art - The Sun #
 
-![SW_1997-2017-animated](SW_1997-2017-animated-small.gif "Space Weather data collected over 20 years (1997-2017).")
+![SW_1997-2017-animated](SW_1997-2017-animated-small.gif "Space Weather data collected over 21 years (1997-2017).")
 
 Our Sun is living and beautiful. The Sun pulses with activity through its 11-year solar cycle and creates space weather. These images are "reconstructions" of our Sun using space weather data collected by the [Space Weather Prediction Centre (SWPC)](https://www.swpc.noaa.gov/) from 1997 to 2017.
 Here is what each ring represents:
@@ -8,6 +8,7 @@ Here is what each ring represents:
 
 Please refer to the SWPC website for further details on the parameters.
 
+![SW_1998-2017-still](SW_1998-2017-still-small.png "20 Suns.")
 
 ## Methodology ##
 Daily space weather data was obtained from the [Space Weather Prediction Centre](https://www.swpc.noaa.gov/) warehouse. I compiled, cleaned and transformed the data to generate the final table: [SW\_1997-2017\_data.csv](SW_1997-2017_data.csv "SW_1997-2017_data.csv"). 
