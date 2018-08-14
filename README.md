@@ -8,7 +8,9 @@ Here is what each ring represents:
 
 Please refer to the SWPC website for further details on the parameters.
 
+Here are the latest 20 Suns compiled in a single still image:
 ![SW_1998-2017-still](SW_1998-2017-still-small.png "20 Suns.")
+
 
 ## Methodology ##
 Daily space weather data was obtained from the [Space Weather Prediction Centre](https://www.swpc.noaa.gov/) warehouse. I compiled, cleaned and transformed the data to generate the final table: [SW\_1997-2017\_data.csv](SW_1997-2017_data.csv "SW_1997-2017_data.csv"). 
